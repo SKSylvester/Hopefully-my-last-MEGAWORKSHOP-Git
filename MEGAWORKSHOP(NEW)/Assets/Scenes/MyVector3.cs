@@ -129,9 +129,10 @@ public class MyVector3
     public static MyVector3 operator -(MyVector3 lhs, MyVector3 rhs)
     // Operator overloading for subtract, allowing the use of the '-' operator for vector addition
     {
-        // Call the AddVectors method for vector addition
+        // Call the SubtractVectors method for vector addition
         return SubtractVectors(lhs, rhs);
     }
+
 
     //Workshop 2
 
